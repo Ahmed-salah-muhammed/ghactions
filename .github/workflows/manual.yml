@@ -5,7 +5,7 @@ on:
                 description: "choose env"
                 required: true
                 default: "staging"
-                type: choise
+                type: choice
                 options:
                     - staging
                     - production
@@ -15,6 +15,6 @@ jobs:
         runs-on: ubuntu-latest
 
         steps: 
-        - name: deloying
-          run: echo"deplying the app..."
+         - name: deloying
+           run: echo"deplying the app..."
         
